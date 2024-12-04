@@ -26,7 +26,7 @@ public class PetDto {
 
 	private Boolean lostTracker;
 
-	@AssertTrue(message = "Tracker type must be SMALL or BIG for cats and SMALL, MEDIUM, or LARGE for dogs")
+	@AssertTrue(message = "Tracker type must be SMALL or LARGE for cats and SMALL, MEDIUM, or LARGE for dogs")
 	private boolean isTrackerTypeValid() {
 		return this.petType.getSupportedTrackers().contains(trackerType);
 	}

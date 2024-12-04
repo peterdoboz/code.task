@@ -75,7 +75,7 @@ public class PetControllerIntegrationTest {
 		assertEquals(HttpStatus.OK, response.getStatusCode());
 		PetDto[] allPets = response.getBody();
 		assertNotNull(allPets);
-		// Assert based on the expected values, here we assume we should have some pets
-		assertTrue(allPets.length >= 0); // Replace with a meaningful condition based on test data
+
+		assertTrue(allPets.length >= 0);
 	}
 }

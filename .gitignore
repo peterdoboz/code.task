@@ -4,6 +4,7 @@
 
 bin/
 .settings/
+.mvn
 
 # Eclipse files
 .project
@@ -25,5 +26,5 @@ target/
 *.war
 *.ear
 
-data/
-*/DS_Store
+data/*
+*/.DS_Store

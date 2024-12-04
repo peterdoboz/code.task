@@ -82,3 +82,14 @@ mvn test
 - **`PetMapperTest`**: Tests the `PetMapper` class.
 - **`PetServiceTest`**: Tests the `PetService` class.
 - **`PetControllerIntegrationTest`**: Integration test for the `PetController`.
+
+
+### Time Spent 
+
+To be honest I spent more time than the 3 hours mentioned in the assignment.
+In total 5 however approximately 2 out of 5 hours I spent troubleshooting H2, Lombok, Mapstruct and even REST validations. Unfortunately none worked out of the box and required some setup time.
+
+### Known issues
+
+Don't be alarmed by the database password in the property file. I would never do it in real life and I would use the encryption to store any credentials within the code base.
+Validations and tests could be more thorough however due to lack of time I couldn't go too deep.
